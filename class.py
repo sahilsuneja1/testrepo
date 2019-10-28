@@ -1,9 +1,9 @@
-z = 10
+z = 10  # this is a global variable
 
-class A:
+class A:    
     @classmethod
     def f(cls, a1):
-        cls.a = a1
+        cls.a = a1  # a is a shared class attribute
     def g(self, b1):
         global z
         self.b = b1
