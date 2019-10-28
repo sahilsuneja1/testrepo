@@ -1,4 +1,4 @@
-z = 10
+z = 10  # a global variable
 
 class A:
     @classmethod
