@@ -15,3 +15,5 @@ def h():
     for line in lines:
         print(line.upper())
 
+def h1():
+    print("hello")
